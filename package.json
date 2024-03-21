@@ -1,0 +1,42 @@
+{
+  "name": "atreiciendis",
+  "version": "1.0.0",
+  "description": "Which kind of boxed JS primitive is this?",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WeldonRice/atreiciendis.git"
+  },
+  "keywords": [
+    "boxed",
+    "primitive",
+    "voluptate",
+    "ecmascript",
+    "javascript",
+    "cumque"
+  ],
+  "author": "AllisonRunolfsson",
+  "license": "MIT",
+  "homepage": "https://github.com/WeldonRice/atreiciendis.git",
+  "dependencies": {
+    "is-bigint": "^1.0.0",
+    "is-boolean-object": "^1.0.0",
+    "is-number-object": "^1.0.3",
+    "is-string": "^1.0.4",
+    "is-symbol": "^1.0.2"
+  },
+  "devDependencies": {
+    "@ljharb/eslint-config": "^14.0.2",
+    "auto-changelog": "^1.14.1",
+    "eslint": "^6.1.0",
+    "has-symbols": "^1.0.0",
+    "object-inspect": "^1.6.0",
+    "safe-publish-latest": "^1.1.2",
+    "tape": "^4.11.0"
+  },
+  "auto-changelog": {
+    "backfillLimit": false,
+    "commitLimit": false,
+    "template": "keepachangelog"
+  }
+}
